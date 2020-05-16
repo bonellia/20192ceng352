@@ -1,0 +1,3 @@
+SELECT pub_type, COUNT(*)
+FROM PUB P
+GROUP BY P.PUB_TYPE;
